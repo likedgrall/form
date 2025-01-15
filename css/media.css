@@ -1,0 +1,15 @@
+@media (max-width: 470px) {
+    .center {
+        width: 250px;
+    }
+
+    .form__elements {
+        & button {
+            width: 200px !important;
+        }
+        & .button-login {
+            flex-direction: column;
+        }
+    }
+
+}
